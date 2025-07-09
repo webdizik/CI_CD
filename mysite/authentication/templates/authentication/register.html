@@ -1,0 +1,12 @@
+{% extends 'authentication/base.html' %}
+
+{% block content %}
+  <div class="container">
+    <h1>User registration</h1>
+    <form method="POST" class="reg-auth-form">
+        {% csrf_token %}
+        {{ form }}
+        <button type="submit" class="save btn btn-primary">Register</button>
+    </form>
+  </div>
+{% endblock %}

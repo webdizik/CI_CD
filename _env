@@ -1,0 +1,9 @@
+SECRET_KEY = 'django-insecure-0*w6#(fw5ndyr_c62iab$kxj+ro9pi-jsj!ighfz3%-aw!!uvv'
+
+DEBUG = 'False'
+
+PG_NAME = 'My_Blog'
+PG_HOST = '127.0.0.1'
+PG_PORT = '5432'
+PG_USER = 'postgres'
+PG_PASSWORD = 'postgres'
