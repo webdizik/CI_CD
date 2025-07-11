@@ -40,7 +40,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Линтер
-        run: flake8 blog --exclude migrations --ignore E501,F401,E302,W293,W391,W292
+        run: flake8 mysite/blog --exclude migrations --ignore E501,F401,E302,W293,W391,W292
 
       - name: Линтер
         run: flake8 authentication --exclude migrations --ignore E501,F401,E302,W293,W391,W292
