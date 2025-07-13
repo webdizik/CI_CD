@@ -65,7 +65,7 @@ jobs:
 #          username: ${{ secrets.USERNAME }}
           username: root
 #          password: ${{ secrets.PASSWORD }}
-          password: 061240
+          password: Ktyjxrf50
           script: |
             cd /opt/CI_CD
             git pull
