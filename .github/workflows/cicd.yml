@@ -61,11 +61,11 @@ jobs:
         uses: appleboy/ssh-action@master
         with:
 #          host: ${{ secrets.HOST }}
-          host: 95.163.230.65
+          host: '95.163.230.65'
 #          username: ${{ secrets.USERNAME }}
-          username: root
+          username: 'root'
 #          password: ${{ secrets.PASSWORD }}
-          password: Ktyjxrf50*
+          password: 'Ktyjxrf50*'
           script: |
             cd /opt/CI_CD
             git pull
