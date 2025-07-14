@@ -62,8 +62,8 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
-#          key: ${{ secrets.SSH_KEY }}
-          password: ${{ secrets.PASSWORD }}
+          key: ${{ secrets.SSH_KEY }}
+#          password: ${{ secrets.PASSWORD }}
           script: |
             cd /opt/CI_CD
             git pull
