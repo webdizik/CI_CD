@@ -65,7 +65,7 @@ jobs:
 #          username: ${{ secrets.USERNAME }}
           username: root
 #          password: ${{ secrets.PASSWORD }}
-          key: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEgSPYpXGsStWlAaKObg0OCq9grFaHrzCP2vyOrgiC8k vid@Comp-VID
+          key: 'ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEgSPYpXGsStWlAaKObg0OCq9grFaHrzCP2vyOrgiC8k vid@Comp-VID'
           script: |
             cd /opt/CI_CD
             git pull
